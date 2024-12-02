@@ -1,0 +1,191 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE-edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="style.css" />
+    <script src="krupa.js"></script>
+    <title>Kirupakararam - Front-end developer portfolio</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap"
+      rel="stylesheet"
+    />
+    <script src="https://kit.fontawesome.com/ad5a548eec.js" crossorigin="anonymous"></script>
+  </head>
+  <body>
+    <header>
+      <nav>
+        <div class="name">Kirupakararam portfolio</div>
+        <div class="right"></div>
+        <ul>
+          <li><a href="#firstsection">Home</a></li>
+          <li><a href="#about">About</a></li>
+          <li><a href="#about">Education</a></li>
+          <li><a href="#portfolio">Projects</a></li>
+          <li><a href="#contact">Contact</a></li>
+        </ul>
+      </nav>
+    </header>
+    <main>
+      <section class="firstsection">
+        <div class="leftsection">
+          Hi,my name is <span class="purple">Kirupakararam V S,</span>
+          <div>I am a passionate junior Front-end Web Developer</div>
+        </div>
+        <div class="rightsection"><img src="images/th.png"/></div>
+      </section>
+      <hr>
+      <div id="about"></div>
+      <div class="container">
+        <div class="row">
+          <div class="about-col-1">
+            <img src="images/pics.png" />
+          </div>
+          <div class="about-col-2">
+            <h1 class="subtitle">About me</h1>
+              <p class="para">
+                Passionate, Junior Front End Developer with a proven track record at Person, where I leveraged HTML, CSS, and JavaScript to enhance user experiences. Expert in React JS and responsive design, I excel in collaborative projects, significantly improving website efficiency. My strong problem-solving skills and proficiency in Git underscore my ability to deliver high-quality work.</p>
+              <div class="tab-titles">
+                <p class="tab-links active-link" onclick="opentab('skills')">Skills</p>
+                <p class="tab-links" onclick="opentab('education')">Education</p>
+                <p class="tab-links" onclick="opentab('Certifications')">Certifications
+              </div>
+              <div class="tab-contents active-tab" id="skills">
+                <ul>
+                  <li><span>HTML and CSS</span><br>Designingn web</li>
+                  <li><span>JavaScript</span><br>Giving more elegance to the webpage</li>
+                  <li><span>React JS</span><br>Knowledgible eith the framework</li>
+                  <li><span>Responsive design</span><br>Making the wwebsite responsible through media query</li>
+                  <li><span>Git and GitHub</span><br>Able to store and fetch data</li>
+                
+                </ul>
+              </div>
+              <div class="tab-contents" id="education">
+                <ul>
+                  <li><span>2019</span><br>Higher Education Coimbatore</li>
+                  <li><span>2021-2024</span><br>Bachelor in Information Technology Coimbatore</li>
+                  <li>(Graduated with distinction,specialised in Information Technology)</li>
+                </ul>
+              </div>
+              <div class="tab-contents" id="Certifications">
+                <ul>
+                  <li><span>April - 2024</span><br>Certification in Basics of Front-end Web Development - Coursera</li>
+                  <li><span>May - 2024</span><br>Certified HTML developer - W3Schools</li>
+                  <li><span>June - 2024</span><br>Responsive Web Design Certification – FreeCodeCamp</li>
+                  <li><span>August - 2024</span><br>Important concepts of JavaScript - Infosys Springboard</li>
+                  </ul>
+          </div>
+      </div>
+    </main>
+    <hr class="hrclass">
+    <!--Service-->
+    <div id="services">
+    <div class class="container">
+        <h1 class="sub-title">My services</h1>
+        <div class="service-list">
+          <div>
+            <i class="fa-solid fa-code"></i>
+            <h2>Web design</h2>
+            <p>Planning and creation of information architecture, user interface, site structure, navigation, layout, colors, fonts, and overall imagery.</p>
+            <a href="#" class="btn btn3">Learn more</a>
+          </div>
+          <div>
+            <i class="fa-solid fa-crop"></i>
+            <h2>Video Editing</h2>
+            <p>Creating compelling content that captivates and communicates effectively. Proficiency in editing adds a professional edge to digital media, enhancing personal and business ventures.</p>
+            <a href="#" class="btn btn3">Learn more</a>
+          </div>
+          <!-- <div>
+            <i class="fa-brands fa-slack"></i>
+            <h2>Web design</h2>
+            <p>Lorem ipsum dolor sit, amet consectetur adipisicing elit. Sunt consequuntur itaque veniam, magnam ex doloribus adipisci non?</p>
+            <a href="#">Learn more</a>
+          </div> -->
+        </div>
+    </div>
+  </div>
+  <hr class="hrclass">
+  <!--Portfolio-->
+  <div id="portfolio">
+    <div class="container">
+      <h1 class="sub-title">My Projects</h1>
+      <div class="work-list">
+        <div class="work">
+          <img src="images/QR Generator (2).jpg">
+          <div class="layer">
+            <br>
+            <h3>QR Generator : </h3>
+            <br>
+            <p>Created QR codes for your online services, websites, and products and add them to posters, forms, and flyers. QR codes, like logos, are helpful on business cards and vCards as they are easier to scan than long URLs or phone numbers.</p>
+          </div>
+          <br>
+        </div>
+        <div class="work">
+          <img src="images/Todo.png">
+          <div class="layer">
+            <br>
+            <h3>To - Do List : </h3>
+            <br>
+            <p>Prepared this list to make sure that each and every tasks are written down all in one place so you don't forget anything important and by prioritizing tasks and planning the order in which to do them.</p>
+          </div>
+          <br>
+        </div>
+        <div class="work">
+          <img src="images/Recipe (3).png">
+          <div class="layer">
+            <br>
+            <h3>Receipe Book : </h3>
+            <br>
+            <p>Recipes are passed down from generation to generation, and a lot of heart and soul goes into curating them. Cookbooks allow us to dive into those traditions and the culture while educating its readers about the importance and joy of cooking.</p>          
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+  <hr class="hrclass">
+  <!-----------Contact------------->
+  <div id="contact">
+    <div class="container">
+      <div class="row">
+        <div class="contact-left">
+          <h1>Contact Me</h1>
+          <p href><i class="fa-solid fa-paper-plane"></i>kirupakararam0@gmail.com</p>
+          <p><i class="fa-solid fa-phone"></i>+91 9965227174</p>
+          <div class="social-icons">
+            <a href="https://in.linkedin.com/"><i class="fa-brands fa-linkedin"></i></a>
+            <a href="https://in.GitHub.com/"><i class="fa-brands fa-github"></i></a>
+          </div>
+          <a href="images/Kirupakararam V S-Resume.pdf" download class="btn btn2">Download CV</a>
+        </div>
+        <div class="contact-right">
+          <form>
+            <input type="text" name="Name" placeholder="Your name" required>
+            <input type="email" name="email" placeholder="Your email" required>
+            <textarea name="Message" rows="6" placeholder="Your message"></textarea>
+            <button type="submit" class="btn btn2">submit</button>
+          </form>
+        </div>
+      </div>
+    </div>
+  </div>
+    <script>
+      var tablinks=document.getElementsByClassName("tab-links")
+      var tabcontents=document.getElementsByClassName("tab-contents")
+
+      function opentab(tabname){
+        for(tablink of tablinks){
+          tablink.classList.remove("active-link");
+        }
+        for(tabcontent of tabcontents){
+          tabcontent.classList.remove("active-tab");
+        }
+        event.currentTarget.classList.add("active-link");
+        document.getElementById(tabname).classList.add("active-tab");
+      }
+    </script>
+
+  </body>
+</html>
